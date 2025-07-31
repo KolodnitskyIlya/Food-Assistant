@@ -23,7 +23,7 @@ Food Assistant — это веб-приложение с удобным инте
 | Фронтенд          | `Streamlit`                               |
 | База данных       | `PostgreSQL`                              |
 | Аутентификация    | `JWT`, `OAuth2`, `bcrypt`                 |
-| AI-интеграция     | `OpenAI`, `AI-ассистент рекомендаций`     |
+| AI-интеграция     | `GigaChat`, `AI-ассистент рекомендаций`     |
 | DevTools          | `Poetry`, `Pydantic`, `dotenv`, `Uvicorn` |
 
 ---

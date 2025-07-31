@@ -49,20 +49,20 @@ Food Assistant — это веб-приложение с удобным инте
 
 Следуйте этим шагам, чтобы запустить проект локально.
 
-1. Клонируйте репозиторий и перейдите в папку проекта
+# 1. Клонируйте репозиторий и перейдите в папку проекта
 
 ```zsh
 git clone git@github.com:KolodnitskyIlya/Food-Assistant.git
 cd Food-Assistant
 ```
 
-2. Установите зависимости через Poetry
+# 2. Установите зависимости через Poetry
 
 ```zsh
 poetry install
 ```
 
-3. Скопируйте пример файла с переменными окружения и настройте его
+# 3. Скопируйте пример файла с переменными окружения и настройте его
 
 ```zsh
 cp .env.example .env
@@ -70,7 +70,7 @@ cp .env.example .env
 
 Откройте .env и укажите параметры подключения к базе данных и секретный ключ.
 
-4. Запустите PostgreSQL (если требуется)
+# 4. Запустите PostgreSQL (если требуется)
 
 Если PostgreSQL установлен через Homebrew (macOS), выполните:
 
@@ -78,21 +78,14 @@ cp .env.example .env
 brew services start postgresql@14
 ```
 
-5. Запустите backend-сервер с автообновлением
+# 5. Запустите backend-сервер с автообновлением
 
 ```zsh
 poetry run uvicorn app.main:app --reload
 ```
 
-6. Запустите Streamlit-интерфейс
+# 6. Запустите Streamlit-интерфейс
 
 ```zsh
 poetry run streamlit run frontend/app.py
 ```
-
-
-⸻
-
-Если хочешь, могу помочь добавить этот раздел в твой README целиком.
-
-⸻
